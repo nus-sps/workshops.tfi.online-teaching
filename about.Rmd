@@ -1,9 +1,27 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "About Us"
+# description: |
+#   Some additional details about the website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+<style>
+h1{color:#096B72;}
+h2{color:#096B72;opacity:.85}
+</style>
+
+# Who are we?
+We are a group of staff and students from the Special Programme in Science (SPS), under the National University of Singapore (NUS). 
+SPS adopts a unique approach towards teaching and learning of interdisciplinary science. Find out more here [sps.nus.edu.sg](http://sps.nus.edu.sg).
+
+
+
+|                                                             |                                                             |                                                             |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![](http://sps.nus.edu.sg/wp-content/uploads/ultimatemember/52/profile_photo-190x190.jpg?1633993669) | ![](http://sps.nus.edu.sg/wp-content/uploads/ultimatemember/96/profile_photo-190x190.jpg?1633993630) | ![](http://sps.nus.edu.sg/wp-content/uploads/ultimatemember/77/profile_photo-190x190.jpg?1633993560) |
+|   [Linda Sellou](http://sps.nus.edu.sg/user/linda.sellou/)   |   [Kellie Wong](http://sps.nus.edu.sg/user/kellie.wong19/)   |   [Kellisa Goh](http://sps.nus.edu.sg/user/kellisa.goh19/)   |
+| ![](http://sps.nus.edu.sg/wp-content/uploads/ultimatemember/75/profile_photo-190x190.jpg?1633993723) | ![](http://sps.nus.edu.sg/wp-content/uploads/ultimatemember/95/profile_photo-190x190.jpg?1633993747) |                                                              |
+|    [Darren Teo](http://sps.nus.edu.sg/user/darren.teo19/)    |    [Tee Kai Ze](http://sps.nus.edu.sg/user/kaize.tee19/)     |                                                              |
