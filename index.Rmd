@@ -1,0 +1,49 @@
+---
+title: "Tips for Online Teaching"
+description: |
+    This e-workshop is one of several e-workshops and e-talks organised by NUS and other ASEAN universities with the support of the Temasek Foundation International.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+xaringanExtra::use_panelset()
+library(readr)
+library(dplyr)
+library(magrittr)
+# library(kableExtra)
+library(DT)
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+```
+
+<style>
+display td {text-align:center;}
+
+td:nth-of-type(3){
+text-align:left;
+}
+
+h1{color:#096B72;}
+
+h2{color:#096B72;}
+</style>
+
+## How to proceed
+
+## References Used for the Workshop
+
+```{r}
+df_references <- read_csv("References - Full list.csv", 
+    col_types = cols(`ID Number` = col_skip(), 
+        Link = col_skip()))
+
+names(df_references)[4] <- 'Link'
+
+df_references %>%
+  datatable(escape = F,class='display', options = list(pageLength = 25, scrollX=T))
+```
+

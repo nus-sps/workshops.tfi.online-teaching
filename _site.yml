@@ -1,0 +1,12 @@
+name: "SPS Science Communication Team"
+title: "Tips for Online Teaching"
+description: |
+  This e-workshop is one of several e-workshops and e-talks organised by NUS and other ASEAN universities with the support of the Temasek Foundation International.
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
