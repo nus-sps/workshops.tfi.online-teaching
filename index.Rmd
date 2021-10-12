@@ -28,8 +28,8 @@ opacity:.5
 }
 </style>
 
-```{r,out.width='80%',fig.align='center',class.source="front-img"}
-knitr::include_graphics('images/miro-small.png')
+```{r,out.width='100%',fig.align='center',class.source="front-img"}
+knitr::include_graphics('images/miro-small.jpg')
 ```
 
 
